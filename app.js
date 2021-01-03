@@ -4,7 +4,7 @@ const mongoose=require("mongoose")
 
 app.use(express.json())
 app.get("/",(req,res)=>{
-    res.send("welcome")
+    res.send("hii")
 })
 app.post("/user1",(req,res)=>{
     
